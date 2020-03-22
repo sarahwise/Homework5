@@ -1,0 +1,77 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-image: url("https://cdn.shopify.com/s/files/1/2537/8806/products/beibehang-3d-mural-wallpaper-Custom-photo-wallpaper-flamingo-flowers-plants-tropical-rainforest-wall-wallpaper-for-kids_fb77930a-ce40-4a73-afc0-e5b461730cab_1200x1200.jpg?v=1571609152");
+  background-size: cover;
+}
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  font-family: 'Bellota', cursive;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  border-bottom: 10px solid white;
+  height: 198px;
+  background-color: rgb(255, 176, 197);
+  color: black;
+  
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: transparent;
+  color: white;
+}
+
+.present {
+  background-color: white;
+  color: white;
+}
+
+.future {
+  background-color: rgb(181,239,233);
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color:rgb(2,121,61);
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
